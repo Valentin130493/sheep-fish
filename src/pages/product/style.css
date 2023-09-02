@@ -1,0 +1,20 @@
+.product{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+}
+.product_images{
+    width: 100%;
+}
+
+.product_images img{
+    margin: 0 10px;
+    object-fit: contain;
+}
+.product p{
+    text-wrap: initial;
+    white-space: pre-wrap;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.add-form, .add-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add-form form{
+    min-width: 50%;
+}
+.add-form_input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}

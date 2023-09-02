@@ -1,0 +1,25 @@
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.table th {
+    padding: 5px;
+    min-width: 70px;
+}
+
+.cell {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    text-wrap: initial;
+    max-width: 30vw;
+}
+.remove{
+    background: red;
+    color:white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+}
